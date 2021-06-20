@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Http</title>
+        <style>
+            .control-label {
+                color: rgb(75, 80, 139);
+                font-size: 20px;
+            }
+            input[type=text] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+            }
+            .button {
+              background-color: #534caf;
+              border: none;
+              color: white;
+              padding: 5px 25px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+            }
+            </style>
+    <script src="app2.js" defer>
+            
+    </script>
+    </head>
+    <body>
+        <form id="form"> 
+        <div>
+            <label for="movie" class="control-label">Title :</label>
+            <input type="text" id="name" name="name" required
+            minlength="3" maxlength="30" size="10">
+        </div>
+       <div>
+           <input type="button" class="button" id="btn" name="button" value="search">
+        </div>
+        <div>
+            <p id="demo">
+
+            </p>
+        </div>
+    </form>
+    </body>
+</html>
